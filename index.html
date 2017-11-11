@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="CSS/style.css">
+        <script src="JS/script.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+        <title>Photo Carousel</title>
+    </head>
+    <body>
+        <h1>~ Serene Spaces ~</h1>
+        <div class="container">
+            
+            <i class="arrow right"></i>
+            <center><img width="100%" src="img/1.jpg"/></center>
+            <i class="arrow left"></i>
+            
+        </div>
+    </body>
+    <script>
+        var index=1;
+        $(".right").click(function(){
+            index++;
+            if (index >= 14){
+            index = 1;
+            }
+            $("img").attr("src", "img/" + index + ".jpg");
+        });
+        
+        $(".left").click(function(){
+            index--;
+            if (index <= 1){
+            index = 14;
+            }
+            $("img").attr("src", "img/" + index + ".jpg");
+        });
+    </script>
+</html>
