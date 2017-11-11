@@ -17,9 +17,16 @@ body {
     background-color: transparent;
 }
 
+/* Centering images on screen */
+div.container > img {
+    display: block;
+    margin: 0 auto;
+}
+
+/* Sizing images appropriately */
 img {
-    height: 85%;
-    width: auto;
+    max-height: 85%;
+    max-width: 85%;
     border: solid papayawhip;
     border-width: 5px;
 }
@@ -59,4 +66,14 @@ i:hover {
     position:absolute;
     top:50%;
     bottom:50%;
+}
+
+/* caption styling */
+.caption {
+width: 100%; 
+text-align: center;
+padding: 10px 0;
+font-size: 1.4em;
+font-weight: bold;
+color: white;
 }
