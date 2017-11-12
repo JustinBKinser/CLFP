@@ -18,8 +18,8 @@ var caption = [
     "Here you can see how centered and aligned furniture makes a room look settled and inviting.",
     "Intersting furniture makes interesting rooms. That striped Ottoman adds a lot of dimension and movement.",
     "I've always loved cream fabrics complimeted with dark woods. The combo creates contrast without leaving the room feeling cold and sterile.",
-    "Modern Brooklyn apartmet: Exposed Brick, sophisticated kitchen decor with complimentary furniture. My only complaint is, again, the flat ceiling makes the room feel enclosed.",
-    "Borrowing the clean, flowing lines of Japanese architecture help define a space without making it feel restricted.",
+    "Modern Brooklyn apartmet: Exposed Brick, sophisticated kitchen decor, and complimentary furniture. My only complaint is, again, the flat ceiling makes the room feel enclosed.",
+    "Borrowing the clean, flowing lines of Japanese architecture helps define a space without making it feel restricted.",
 ];
 
 // Arrow cycling functionality
