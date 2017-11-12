@@ -70,10 +70,10 @@ i:hover {
 
 /* caption styling */
 .caption {
-width: 100%; 
+max-width: 100%; 
 text-align: center;
 padding: 10px 0;
 font-size: 1.4em;
-font-weight: bold;
+font-weight: normal;
 color: white;
 }
