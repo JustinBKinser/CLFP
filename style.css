@@ -1,0 +1,87 @@
+body {
+    background-color: slategray;
+}
+
+/* Header */
+    h1 {
+    color: skyblue;
+    text-align: center;
+    text-shadow: 2px 2px darkblue;
+
+}
+
+/* Container for carousel */
+.container {
+    display: block;
+    width: 100%;
+    background-color: transparent;
+}
+
+/* Centering images on screen */
+div.container > img {
+    display: block;
+    margin: 0 auto;
+}
+
+/* Sizing images appropriately */
+img {
+    max-height: 85%;
+    max-width: 85%;
+    border: solid papayawhip;
+    border-width: 5px;
+}
+
+/* Arrow appearance */
+i {
+    width:40px;
+    height:40px;
+    border: solid skyblue;
+    border-width: 0 10px 10px 0;
+    display: inline-block;
+    padding: 3px;
+}
+
+/* Mouseover arrows changes color */
+i:hover {
+    width:45px;
+    height:45px;
+    border-color: papayawhip;
+}
+
+/* Orienting arrows */
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    right:3%
+}
+
+.left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+    left:3%;
+}
+
+/* Positioning arrows */
+.right, .left {
+    position:absolute;
+    top:50%;
+    bottom:50%;
+}
+
+/* caption styling */
+.caption {
+max-width: 100%; 
+text-align: center;
+padding: 10px 0;
+font-size: 1.4em;
+font-weight: normal;
+color: white;
+}
+
+@media (max-width: 780px) {
+    .caption {font-size: 0.9em;
+    text-shadow: 0px 0px 3px black;}   
+    body {background-color: navy;}
+    i {width:25px;
+        height:25px;}
+}
